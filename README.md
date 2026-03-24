@@ -17,3 +17,21 @@ Where:
 *   $c^2$: The **propagation speed** of the wave squared (a constant).
 *   $\frac{\partial^2 u}{\partial x^2}$: The **second partial derivative** of the displacement $u$ with respect to position $x$ (the curvature of the wave). The "concavity" or curvature of the wave shape.
 
+The first file uploaded is a code snippet summarised by the following flow
+(x, t)
+   ↓
+Neural Network
+   ↓
+u(x,t)
+   ↓
+Autograd
+   ↓
+Derivatives (u_x, u_tt, etc.)
+   ↓
+PDE residual
+   ↓
+Loss
+   ↓
+Backprop
+   ↓
+Better u(x,t)
