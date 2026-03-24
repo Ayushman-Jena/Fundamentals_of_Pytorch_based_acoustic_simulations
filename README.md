@@ -5,7 +5,7 @@ $$
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
 $$
 
-Where, u(x,t)=displacement or pressure wave and c is the speed of wave
+Where, u(x,t)=displacement or pressure wave and c is the speed of wave. The steps shall include
 1. use a neural network u(x,t)
 2. Compute derivatives using Autograd
 3. Minimize PDE residual + boundary + initial conditions 
